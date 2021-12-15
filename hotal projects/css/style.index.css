@@ -1,0 +1,366 @@
+/*RESET*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*main body style*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.79em;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 20px 0px;
+
+}
+.cointainor{
+    max-width: 1000px;
+    overflow: auto;
+    margin: auto;
+}
+/*navbar*/
+#navbar{
+    background-color: black;
+    overflow: auto;
+
+}
+a{
+    color: white;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+    
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    padding:  20px;
+    display: block;
+    text-align: center;
+    
+}
+#navbar h1 a:hover{
+    color: rgb(218, 159, 70);
+}
+#navbar ul li a:hover,#navbar ul li a.current{
+    background-color: blanchedalmond;
+    color: black;
+}
+/*showcase*/
+#showcase{
+    background: url("../image/pexels-rachel-claire-6127022.jpg") no-repeat center center/cover ;
+    height: 600px;
+    color:rgb(53, 241, 62) ;
+    text-align: center;
+    padding-top: 170px;
+    
+
+}
+#showcase .showcase-content .heading{
+    font-size: 60px;
+}
+#showcase .showcase-content .heading .primary-text{
+    color: rgb(62, 193, 233);
+
+}
+#showcase .showcase-content p{
+    font-size: 20px;
+    padding: 5px;
+}
+#showcase .showcase-content .btn{
+    font-size: 18px;
+    display: inline-block;
+    background-color: rgb(224, 77, 180);
+    padding: 10px;
+
+}
+#showcase .showcase-content .btn:hover{
+    color: black;
+    background-color: gold;
+    cursor: pointer;
+    padding: 15px;
+}
+/*section styling*/
+#top-section{
+    height: 400px;
+}
+#top-section .image{
+    background: url(../image/pexels-michael-block-3225531.jpg) no-repeat center center/cover;
+    width: 50%;
+    float: left;
+    min-height: 100%;
+}
+
+
+#top-section  .top-content{
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    min-height: 100%;
+    
+}
+#top-section  .top-content .top-primary-text{
+    color: gold;
+}
+#top-section  .top-content  h2{
+    font-size: 30px;
+}
+#top-section  .top-content  p{
+    font-size: 18px;
+}
+#top-section  .top-content  .btn-section{
+    display: inline-block;
+    background-color:gold;
+    color: black;
+    padding:7px;
+    cursor: pointer;
+    
+}
+#top-section  .top-content  .btn-section:hover{
+    padding: 10px;
+}
+#bottom-section{
+    height: 250px;
+    
+    
+}
+#bottom-section .box1{
+    width: 33.33%;
+    float: left;
+    min-height:100%;
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+    background-color: rgb(167, 165, 165);
+    
+}
+#bottom-section .box2{
+    width: 33.33%;
+    float: left;
+    min-height:100%;
+    padding-top: 50px;
+    text-align: center;
+    color:black;
+    background-color:rgb(236, 188, 98);
+    
+}
+#bottom-section .box3{
+    width: 33.33%;
+    float: right;
+    min-height:100%;
+    padding-top: 50px;
+    text-align: center;
+    color:black;
+    background-color: rgb(167, 165, 165);
+}
+#bottom-section .box1 p{
+    font-size: 13px;
+}
+#bottom-section .box2 p{
+    font-size: 13px;
+}
+#bottom-section .box3 p{
+    font-size: 13px;
+}
+#bottom{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(65, 62, 62);
+    padding: 5px 0px;
+}
+body{
+    background-color: rgb(209, 204, 204);
+}
+.head-section{
+    height: 350px;
+}
+.head-section .first-head{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+#top-head .first-head h2{
+    font-size: 35px;
+}
+#top-head .first-head .text-header{
+    color:rgb(224, 195, 26) ;
+}
+#top-head .first-head p{
+    font-size: 15px;
+}
+
+#top-head .about-head-image{
+    width: 40%;
+    margin: auto;
+    float: right;
+    
+
+
+}
+#top-head .about-head-image img{
+    width: 300px;
+    height: 250px;
+    margin-top: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: block;
+}
+.body-section{
+    height: 600px;
+    background: url(../image/pexels-pierre-blaché-2901215.jpg) no-repeat center center/cover;
+    color: white;
+    margin: auto;
+    max-width: 100%;
+}
+.body-section .about-content img{
+    width: 100px;
+    height: 80px;
+}
+.body-section h3{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.body-section .about-content .one {
+    border: 2px gold solid;
+    margin: 20px 0px;
+    background-color: rgb(243, 190, 54);
+    color: black;
+    opacity: 0.75;
+}
+.body-section .about-content .two{
+    border: 2px gold solid;
+    background-color: rgb(243, 190, 54);
+    color: black;
+    opacity: 0.75;
+}
+.body-section .about-content .one img{
+    border-radius: 50%;
+    margin-top: 20px;
+    display: block;
+    float: left;
+}
+.body-section .about-content .two img{
+    border-radius: 45%;
+    margin-top: 20px;
+    display: block;
+    float: left;
+}
+.body-section .about-content .one p{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    text-align: left;
+}
+.body-section .about-content .two p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    text-align: left;
+}
+#top-section{
+    height: 600px;
+    padding-left: 10px;
+}
+#top-section h2{
+    font-size: 40px;
+    padding-top: 20px;
+    
+}
+#top-section .contact{
+    color: rgb(223, 186, 92);
+}
+#top-section p{
+    font-weight: bold;
+}
+#top-section label{
+    font-weight: bold;
+}
+#top-section .name-text{
+    width: 700px;
+    height: 35px;
+}
+#top-section .email-text{
+    width: 700px;
+    height: 35px;
+}
+#top-section .message-text{
+    width: 700px;
+    height: 200px;
+}
+
+#top-section .name-text:hover{
+    border-color: rgb(240, 241, 161);
+    border-width: 5px;
+}
+#top-section .email-text:hover{
+    border-color: rgb(240, 241, 161);
+    border-width: 5px;
+}
+#top-section .message-text:hover{
+    border-color: rgb(240, 241, 161);
+    border-width: 5px;
+}
+#top-section button{
+    border: none;
+    font-size: 20px;
+    padding: 15px 23px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+#top-section button:hover{
+    background-color: rgb(233, 153, 40);
+    color: black;
+}
+#bottom-section{
+    height: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+    
+
+
+  
+    
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
